@@ -1,0 +1,5 @@
+1) Briefly describe what happens in your sleep function.  How are you guaranteeing that you sleep for the number of ticks passed in?
+2) What steps are taken to make sure that you don't have to check every sleeping thread when going to wake up threads every tick?
+3) How do you ensure that the highest priority thread waiting for a lock wakes up first?
+4) Describe the sequence when we have a priority donation.  How is nested donation handled?
+5) How do you ensure the highest priority thread waiiting is called when the lock is released?
